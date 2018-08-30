@@ -1,6 +1,6 @@
 #!groovy
 
-node {
+node (label 'madhu') {
     currentBuild.result = "SUCCESS"
 
     try {
